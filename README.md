@@ -1,8 +1,8 @@
-const-max-int32
+Max Int32
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Maximum signed 32-bit integer.
+> Maximum [signed 32-bit integer](http://en.wikipedia.org/wiki/2147483647).
 
 
 ## Installation
@@ -17,18 +17,25 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-max-int32' );
+var MAX_INT32 = require( 'compute-const-max-int32' );
 ```
 
-#### foo( arr )
+#### MAX_INT32
 
-What does this function do?
+Maximum signed 32-bit integer.
+
+``` javascript
+MAX_INT32 === Math.pow( 2, 31 ) - 1;
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-max-int32' );
+var MAX_INT32 = require( 'compute-const-max-int32' );
+
+console.log( MAX_INT32 );
+// returns 2147483647
 ```
 
 To run the example code from the top-level application directory,
