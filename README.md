@@ -8,14 +8,14 @@ Max Int32
 ## Installation
 
 ``` bash
-$ npm install compute-const-max-int32
+$ npm install const-max-int32
 ```
 
 
 ## Usage
 
 ``` javascript
-var MAX_INT32 = require( 'compute-const-max-int32' );
+var MAX_INT32 = require( 'const-max-int32' );
 ```
 
 #### MAX_INT32
@@ -30,7 +30,7 @@ MAX_INT32 === Math.pow( 2, 31 ) - 1;
 ## Examples
 
 ``` javascript
-var MAX_INT32 = require( 'compute-const-max-int32' );
+var MAX_INT32 = require( 'const-max-int32' );
 
 console.log( MAX_INT32 );
 // returns 2147483647
@@ -100,8 +100,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-max-int32.svg
-[npm-url]: https://npmjs.org/package/compute-const-max-int32
+[npm-image]: http://img.shields.io/npm/v/const-max-int32.svg
+[npm-url]: https://npmjs.org/package/const-max-int32
 
 [build-image]: http://img.shields.io/travis/const-io/max-int32/master.svg
 [build-url]: https://travis-ci.org/const-io/max-int32
